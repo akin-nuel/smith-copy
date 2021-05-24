@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    height: 100%;
+    
+}
+
+body .wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:100%;
+}
+
+body .wrapper .container1
+{
+    margin: 0;
+    padding: 0;
+    background-color: #101640;
+    width: 100%;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body .wrapper .container1 nav{
+    width:100%;
+    height:60px;
+    padding: 0;
+    margin:0;
+    display:flex;
+    
+}
+
+body .wrapper .container1 nav .text{
+    width:30%;
+    margin: 0;
+    height: 50px;
+    display:flex;
+    
+}
+
+body .wrapper .container1 nav .text h4{
+    width:30%;
+    margin:20px;
+    padding:0;
+    text-align: center;
+}
+
+body .wrapper .container1 nav .search-box{
+    width:70%;
+    height:30px;
+    padding:0;
+    margin:0;
+}
+
+body .wrapper .container1 nav .search-box .search-txt{
+    margin-top:15px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius:5px;
+}
+
+body .wrapper .container1 nav h4{
+    color: #fff;
+    margin: 20px;
+}
+
+body .wrapper .container2 {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    display:flex;
+}
+
+body .wrapper .container2 .picture{
+    margin: 0;
+    padding:0;
+    width: 50%;
+    height:550px;
+    background-image: url(undraw_researching_22gp%201.png);
+    background-repeat: no-repeat;
+    margin: 40px;
+}
+
+body .wrapper .container2 .text{
+    margin: 0;
+    padding:0;
+    width:50%;
+    height: 550px;
+}
+
+body .wrapper .container2 .text .wrapper{
+    margin: auto;
+    padding:0;
+    width:420px;
+    height: auto;
+}
+
+body .wrapper .container2 .text .wrapper2{
+    margin: auto;
+    padding:0;
+    width:420px;
+    height: 100px;
+}
+
+body .wrapper .container2 .text h2{
+    font-size: 3rem;
+    color:#101640;
+    margin-top: 60px
+}
+
+body .wrapper .container2 .text h6{
+    font-size: 17px;
+}
+
+body .wrapper .container2 .text button{
+    width: 250px;
+    height:60px;
+    border:1px solid black;
+    border-radius:10px;
+    font-size:16px;
+    text-align:left;
+    padding-left:20px;
+    
+}
+
+body .wrapper .container2 .text #blue{
+    background-color:#101640;
+    border: 0;
+    color:#fff;
+    width:140px;
+    text-align: center;
+    padding: 0;
+}
+
+body .wrapper .container3{
+    margin: 0%;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+body .wrapper .container3 .margin{
+    margin: 50px;
+}
+
+body .wrapper .container3 h4{
+    font-size: 25px;
+}
+
+body .wrapper .container3 .margin .row1 .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body .wrapper .container3 .margin .row1 .container .text h5{
+    margin:0;
+    background-color: #ddd;
+    height: 25px;
+    width:248px;
+    
+}
+
+body .wrapper .container3 .row1{
+    width:100%;
+    display:flex;
+}
+
+body .wrapper .container3 .picture1{
+    width: 100%;
+    height:176px;
+    background-image:url(Rectangle%208.png);
+    background-repeat: no-repeat;
+}
+
+body .wrapper .container3 .picture2{
+    width: 100%;
+    height:176px;
+    background-image:url(Rectangle%2010.png);
+    background-repeat: no-repeat;
+}
+ 
+body .wrapper .container3 .picture3{
+    width: 100%;
+    height:176px;
+    background-image:url(Rectangle%2012.png);
+    background-repeat: no-repeat;
+}
+
+body .wrapper .container3 .picture4{
+    width: 100%;
+    height:176px;
+    background-image:url(Rectangle%2014.png);
+    background-repeat: no-repeat;
+}
+
+body .wrapper .container3 .row2{
+    width:100%;
+    display:flex;
+    margin-top:10px;
+}
+
+body .wrapper .container3 .row2 .picture5{
+    width: 100%;
+    height:176px;
+    background-repeat: no-repeat;
+    background-image: url(Rectangle%2016.png);
+}
+
+body .wrapper .container3 .row2 .picture6{
+    width: 100%;
+    height:176px;
+    background-repeat: no-repeat;
+    background-image:url(Rectangle%2017.png);
+}
+
+body .wrapper .container3 .row2 .picture7{
+    width: 100%;
+    height:176px;
+    background-repeat: no-repeat;
+    background-image:url(Rectangle%2018.png);
+}
+
+body .wrapper .container3 .row2 .picture8{
+    width: 100%;
+    height:176px;
+    background-repeat: no-repeat;
+    background-image:url(Rectangle%2019.png);
+}
+
+body .wrapper .container3 .margin .row2 .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+body .wrapper .container3 .margin .row2 .container .text h5{
+    margin:0;
+    background-color: #ddd;
+    height: 25px;
+    width:248px;
+}
+
+body .wrapper .container4{
+    width:100%;
+    height:600px;
+    background-color:#101640;
+    display: flex;
+}
+
+body .wrapper .container4 .text{
+    color: #fff;
+    margin: 60px;
+    width: 50%;
+    padding: 0;
+    height: auto;
+}
+
+body .wrapper .container4 .text .container{
+    width:430px;
+    height:auto;
+    padding: 0;
+    margin:0;
+}
+
+body .wrapper .container4 .text .container h1{
+    font-size: 4rem;
+}
+
+body .wrapper .container4 .text .container h6{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+body .wrapper .container4 .text2{
+    width: 50%;
+    height: auto;
+    padding: 0;
+    margin: 70px;
+    color: #fff;
+}
+
+.container5{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #ddd;
+}
+
+.container5 .margin{
+    margin: auto;
+    padding: 70px;
+    width: 100%;
+    height: 430px;
+    display:flex;
+}
+
+.container5 .margin .text1{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container5 .margin .text2{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container5 .margin .text3{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container5 .margin .text4{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container5 .text{
+    width:70%;
+    height:auto;
+    display: flex;
+    margin-left:70px;
+}
+
+.container5 .text h5{
+    margin-right:20px;
+}
+
+@media only screen and (min-width:768px)
+{
+   
+}
