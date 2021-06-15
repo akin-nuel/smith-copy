@@ -73,22 +73,23 @@ body .wrapper .container1 nav h4{
 }
 
 body .wrapper .container2 {
-    width: 100%;
-    height: 550px;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 550px;
     background-color: #ddd;
     display:flex;
 }
 
 body .wrapper .container2 .picture{
     margin: 0;
-    padding:0;
+    padding:20px;
     width: 50%;
     height:550px;
     background-image: url(undraw_researching_22gp%201.png);
+    background-size: cover;
+    background-position:center;
     background-repeat: no-repeat;
-    margin: 40px;
 }
 
 body .wrapper .container2 .text{
@@ -146,42 +147,53 @@ body .wrapper .container3{
     margin: 0%;
     padding: 0;
     width: 100%;
-    height: 500px;
+    height: 550px;
     background-color: #fff;
 }
 
 body .wrapper .container3 .margin{
+    padding:0;
     margin: 50px;
+    width:auto;
+    height:auto;
+}
+body .wrapper .container3 .margin .row1{
+    height:auto;
+    margin:0;
+    padding:0;
+    width:100%;
+    display:flex;
+
 }
 
 body .wrapper .container3 h4{
+    height:70px;
+    margin:0;
     font-size: 25px;
 }
 
 body .wrapper .container3 .margin .row1 .container{
-    width: 100%;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    width:25%;
     height: auto;
 }
 
 body .wrapper .container3 .margin .row1 .container .text h5{
-    margin:0;
-    background-color: #ddd;
     height: 25px;
-    width:248px;
-    
-}
-
-body .wrapper .container3 .row1{
-    width:100%;
-    display:flex;
+    padding:0;
+    margin:0;
+    background-color: #ddd;   
 }
 
 body .wrapper .container3 .picture1{
+    padding:0;
+    margin:0;
     width: 100%;
     height:176px;
     background-image:url(Rectangle%208.png);
+    background-repeat: no-repeat;
+    background-position:center;
     background-repeat: no-repeat;
 }
 
@@ -190,12 +202,16 @@ body .wrapper .container3 .picture2{
     height:176px;
     background-image:url(Rectangle%2010.png);
     background-repeat: no-repeat;
+    background-position:left;
+    background-repeat: no-repeat;
 }
  
 body .wrapper .container3 .picture3{
     width: 100%;
     height:176px;
     background-image:url(Rectangle%2012.png);
+    background-repeat: no-repeat;
+    background-position:center;
     background-repeat: no-repeat;
 }
 
@@ -204,6 +220,8 @@ body .wrapper .container3 .picture4{
     height:176px;
     background-image:url(Rectangle%2014.png);
     background-repeat: no-repeat;
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 body .wrapper .container3 .row2{
@@ -211,12 +229,20 @@ body .wrapper .container3 .row2{
     display:flex;
     margin-top:10px;
 }
+body .wrapper .container3 .margin .row2 .container{
+    width: 25%;
+    margin: 10px;
+    padding: 0;
+    height: auto;
+}
 
 body .wrapper .container3 .row2 .picture5{
     width: 100%;
     height:176px;
     background-repeat: no-repeat;
     background-image: url(Rectangle%2016.png);
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 body .wrapper .container3 .row2 .picture6{
@@ -224,6 +250,8 @@ body .wrapper .container3 .row2 .picture6{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2017.png);
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 body .wrapper .container3 .row2 .picture7{
@@ -231,6 +259,8 @@ body .wrapper .container3 .row2 .picture7{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2018.png);
+    background-position:center;
+    background-repeat: no-repeat;
 }
 
 body .wrapper .container3 .row2 .picture8{
@@ -238,20 +268,17 @@ body .wrapper .container3 .row2 .picture8{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2019.png);
+    background-position:left;
+    background-repeat: no-repeat;
 }
 
-body .wrapper .container3 .margin .row2 .container{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: auto;
-}
+
 
 body .wrapper .container3 .margin .row2 .container .text h5{
     margin:0;
     background-color: #ddd;
     height: 25px;
-    width:248px;
+    width:100%;
 }
 
 body .wrapper .container4{
@@ -270,18 +297,20 @@ body .wrapper .container4 .text{
 }
 
 body .wrapper .container4 .text .container{
-    width:430px;
+    width:50%;
     height:auto;
     padding: 0;
     margin:0;
 }
 
 body .wrapper .container4 .text .container h1{
-    font-size: 4rem;
+    font-size: 3rem;
+    width:300px;
 }
 
 body .wrapper .container4 .text .container h6{
     font-size: 20px;
+    width:300px;
     margin-top: 0;
 }
 
@@ -291,6 +320,7 @@ body .wrapper .container4 .text2{
     padding: 0;
     margin: 70px;
     color: #fff;
+    line-height: 30px;
 }
 
 .container5{
@@ -310,6 +340,7 @@ body .wrapper .container4 .text2{
 }
 
 .container5 .margin .text1{
+    min-width:100px;
     width: 300px;
     height: auto;
     margin: 0;
@@ -317,6 +348,7 @@ body .wrapper .container4 .text2{
 }
 
 .container5 .margin .text2{
+    min-width:100px;
     width: 300px;
     height: auto;
     margin: 0;
@@ -324,6 +356,7 @@ body .wrapper .container4 .text2{
 }
 
 .container5 .margin .text3{
+    min-width:100px;
     width: 300px;
     height: auto;
     margin: 0;
@@ -331,6 +364,7 @@ body .wrapper .container4 .text2{
 }
 
 .container5 .margin .text4{
+    min-width:120px;
     width: 300px;
     height: auto;
     margin: 0;
@@ -348,7 +382,95 @@ body .wrapper .container4 .text2{
     margin-right:20px;
 }
 
-@media only screen and (min-width:768px)
-{
-   
+@media only screen and (max-width:768px){
+    /**{
+        width:100%;
+    }*/
+    body .wrapper .container2{
+        width:100%;
+        height:1100px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .picture{
+        min-width:600px;
+    }
+    body .wrapper .container2 .text{
+        width:100%;
+        height:500px;
+    }
+    body .wrapper .container3{
+        height:1100px;
+        width:100%;
+
+    }
+    .container3 .margin{
+        margin:10px;
+    }
+    .container3 .margin h4{
+        text-align: center;
+    }
+    body .wrapper .container3 .row1{
+        width:100%;
+        height:550px;
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+        
+
+    }
+    body .wrapper .container3 .margin .row1 .container{
+        width:40%;
+    }
+    body .wrapper .container3 .margin .row1 .container .text h5{
+        width:100%;
+        margin:0;
+        padding: 0;
+    }
+    body .wrapper .container3 .margin .row2{
+        width:100%;
+        height:550px;
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+    }
+    body .wrapper .container3 .margin .row2 .container{
+        width:40%; 
+    }
+    body .wrapper .container4{
+        width:100%;
+        height:1000px;
+        flex-wrap:wrap;
+    }
+    body .wrapper .container4 .text{
+        width:100%;
+        margin:20px;
+        
+    }
+    body .wrapper .container4 .text .container{
+        width:100%;
+        height:auto;
+    }
+    body .wrapper .container4 .text .container h1{
+        width:100%;
+        height:auto;
+        font-size:80px;
+        margin:auto;
+        margin-bottom:50px;
+
+    }
+    body .wrapper .container4 .text .container h6{
+        width:80%;
+        margin:auto;
+        font-size:30px;
+        text-align:center;
+    }
+    body .wrapper .container4 .text2{
+        width:100%;
+        height:auto;
+        text-align:center;
+    }
+
 }
+
