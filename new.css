@@ -192,6 +192,7 @@ body .wrapper .container3 .picture1{
     width: 100%;
     height:176px;
     background-image:url(Rectangle%208.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     background-repeat: no-repeat;
@@ -201,6 +202,7 @@ body .wrapper .container3 .picture2{
     width: 100%;
     height:176px;
     background-image:url(Rectangle%2010.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:left;
     background-repeat: no-repeat;
@@ -210,6 +212,7 @@ body .wrapper .container3 .picture3{
     width: 100%;
     height:176px;
     background-image:url(Rectangle%2012.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     background-repeat: no-repeat;
@@ -219,6 +222,7 @@ body .wrapper .container3 .picture4{
     width: 100%;
     height:176px;
     background-image:url(Rectangle%2014.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     background-repeat: no-repeat;
@@ -241,6 +245,7 @@ body .wrapper .container3 .row2 .picture5{
     height:176px;
     background-repeat: no-repeat;
     background-image: url(Rectangle%2016.png);
+    background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -250,6 +255,7 @@ body .wrapper .container3 .row2 .picture6{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2017.png);
+    background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -259,6 +265,7 @@ body .wrapper .container3 .row2 .picture7{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2018.png);
+    background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
 }
@@ -268,7 +275,8 @@ body .wrapper .container3 .row2 .picture8{
     height:176px;
     background-repeat: no-repeat;
     background-image:url(Rectangle%2019.png);
-    background-position:left;
+    background-size: cover;
+    background-position:center;
     background-repeat: no-repeat;
 }
 
@@ -283,7 +291,7 @@ body .wrapper .container3 .margin .row2 .container .text h5{
 
 body .wrapper .container4{
     width:100%;
-    height:600px;
+    height:500px;
     background-color:#101640;
     display: flex;
 }
@@ -308,9 +316,9 @@ body .wrapper .container4 .text .container h1{
     width:300px;
 }
 
-body .wrapper .container4 .text .container h6{
+body .wrapper .container4 .text .container p{
     font-size: 20px;
-    width:300px;
+    width:450px;
     margin-top: 0;
 }
 
@@ -320,7 +328,15 @@ body .wrapper .container4 .text2{
     padding: 0;
     margin: 70px;
     color: #fff;
-    line-height: 30px;
+    
+}
+
+body .wrapper .container4 .text2 h5{
+    margin-bottom:15px;
+}
+
+body .wrapper .container4 .text2 #file{
+    width:90%;
 }
 
 .container5{
@@ -332,8 +348,7 @@ body .wrapper .container4 .text2{
 }
 
 .container5 .margin{
-    margin: auto;
-    padding: 70px;
+    padding:60px 130px;
     width: 100%;
     height: 430px;
     display:flex;
@@ -386,20 +401,47 @@ body .wrapper .container4 .text2{
     /**{
         width:100%;
     }*/
+    body .wrapper .container1{
+        height:70px
+    }
+
     body .wrapper .container2{
         width:100%;
-        height:1100px;
+        height:500px;
         display:flex;
         flex-wrap: wrap;
     }
 
-    .picture{
-        min-width:600px;
+    body .wrapper .container2 .picture{
+        display:none;
     }
     body .wrapper .container2 .text{
         width:100%;
         height:500px;
     }
+
+    body .wrapper .container2 .text .wrapper{
+        width:80%;
+        padding:0;
+        margin-left:40px;
+    }
+
+    body .wrapper .container2 .text .wrapper h2{
+        width:100%;
+    }
+
+    body .wrapper .container2 .text .wrapper p{
+        text-align:left;
+    }
+
+    body .wrapper .container2 .text .wrapper2{
+        margin-left:40px;
+    }
+
+    body .wrapper .container2 .text .wrapper2 button{
+        width:200px;
+    }
+
     body .wrapper .container3{
         height:1100px;
         width:100%;
@@ -416,7 +458,8 @@ body .wrapper .container4 .text2{
         height:550px;
         display:flex;
         flex-wrap:wrap;
-        width:100%;
+        margin:0;
+        padding:0;
         
 
     }
@@ -440,7 +483,7 @@ body .wrapper .container4 .text2{
     }
     body .wrapper .container4{
         width:100%;
-        height:1000px;
+        height:750px;
         flex-wrap:wrap;
     }
     body .wrapper .container4 .text{
@@ -453,24 +496,43 @@ body .wrapper .container4 .text2{
         height:auto;
     }
     body .wrapper .container4 .text .container h1{
-        width:100%;
+        width:90%;
         height:auto;
-        font-size:80px;
-        margin:auto;
-        margin-bottom:50px;
-
+        font-size:40px;
+        margin:20px auto;
+        padding-top:30px;
+        text-align:center;
+        line-height:50px;
     }
-    body .wrapper .container4 .text .container h6{
+    body .wrapper .container4 .text .container p{
         width:80%;
         margin:auto;
-        font-size:30px;
+        font-size:16px;
         text-align:center;
     }
+
     body .wrapper .container4 .text2{
         width:100%;
         height:auto;
+        margin:20px;
         text-align:center;
     }
 
-}
+    body .wrapper .container5{
+        height:380px;
+    }
 
+    body .wrapper .container5 .margin{
+        padding:20px;
+        height:auto;
+    }
+
+    body .wrapper .container5 .margin p{
+        font-size:12px;
+    }
+
+    body .wrapper .container5 .text h5{
+        font-size:10px;
+    }
+}
+   
